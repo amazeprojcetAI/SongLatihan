@@ -58,6 +58,7 @@ body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--
 .tools button { background: #333; border: none; color: white; padding: 8px 12px; cursor: pointer; margin:1px; }
 .key-badge { color: var(--primary); font-weight: bold; margin: 0 5px; }
 
+/* SCROLL CONTROL (NEW) */
 .scroll-control {
     flex: 0 0 auto;
     background: rgba(18,18,18,0.95); padding: 8px; text-align: center;
@@ -70,6 +71,7 @@ body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--
 }
 #btnScroll.active { background: var(--primary); color: black; }
 
+/* STYLING DROPDOWN SCROLL */
 .speed-select {
     background: #333; color: white; border: 1px solid #555;
     padding: 6px 10px; border-radius: 8px; font-size: 0.9rem;

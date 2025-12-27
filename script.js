@@ -2,53 +2,92 @@
 const allSongsData = [
     // --- AVRIL LAVIGNE ---
     {
-        "id": "avril_01", "artist": "Avril Lavigne", "title": "I'm With You", "year": 2002, "key": "A",
-        "lyric": "[Intro]\n[A] [F#m] [D] [E]\n\n[Verse 1]\n[A]I'm standing on a [F#m]bridge\n[D]I'm waitin' in the [E]dark\n[A]I thought that you'd be [F#m]here by now\n[D]There's nothing but the [E]rain\n[A]No footsteps on the [F#m]ground\n[D]I'm listening but there's no [E]sound\n\n[Pre-Chorus]\n[F#m]Isn't anyone [D]tryin' to find me?\n[F#m]Won't somebody come [E]take me home?\n\n[Chorus]\nIt's a [A]damn cold night\nTrying to [F#m]figure out this life\nWon't you [D]take me by the hand?\nTake me [E]somewhere new\nI don't know [A]who you are\nBut I... [F#m]I'm with you\n[D]I'm with you... [E]\n\n[Verse 2]\n[A]I'm looking for a [F#m]place\n[D]I'm searching for a [E]face\n[A]Is anybody [F#m]here I know\n[D]'Cause nothing's going [E]right\nAnd [A]everything's a [F#m]mess\nAnd [D]no one likes to be a[E]lone\n\n[Chorus]\nIt's a [A]damn cold night\nTrying to [F#m]figure out this life\nWon't you [D]take me by the hand?\nTake me [E]somewhere new\nI don't know [A]who you are\nBut I... [F#m]I'm with you\n[D]I'm with you... [E] yeah yeah\n\n[Bridge]\nOh, [F#m]why is everything [D]so confusing?\n[F#m]Maybe I'm just [D]out of my mind\n[A]Yeah, yeah, yeah [E]...\n\n[Outro]\n[A]Take me by the hand\n[F#m]Take me somewhere new\n[D]I don't know who you are\nBut [E]I... I'm with you"
+        id: "avril01", artist: "Avril Lavigne", title: "I'm With You", year: 2002, key: "A",
+        lyric: "[Intro]\n[A] [F#m] [D] [E]\n\n[Verse 1]\n[A]I'm standing on a [F#m]bridge\n[D]I'm waitin' in the [E]dark\n[A]I thought that you'd be [F#m]here by now\n[D]There's nothing but the [E]rain\n[A]No footsteps on the [F#m]ground\n[D]I'm listening but there's no [E]sound\n\n[Pre-Chorus]\n[F#m]Isn't anyone [D]tryin' to find me?\n[F#m]Won't somebody come [E]take me home?\n\n[Chorus]\nIt's a [A]damn cold night\nTrying to [F#m]figure out this life\nWon't you [D]take me by the hand?\nTake me [E]somewhere new\nI don't know [A]who you are\nBut I... [F#m]I'm with you\n[D]I'm with you... [E]\n\n[Verse 2]\n[A]I'm looking for a [F#m]place\n[D]I'm searching for a [E]face\n[A]Is anybody [F#m]here I know\n[D]'Cause nothing's going [E]right\nAnd [A]everything's a [F#m]mess\nAnd [D]no one likes to be a[E]lone\n\n[Chorus]\nIt's a [A]damn cold night\nTrying to [F#m]figure out this life\nWon't you [D]take me by the hand?\nTake me [E]somewhere new\nI don't know [A]who you are\nBut I... [F#m]I'm with you\n[D]I'm with you... [E] yeah yeah\n\n[Bridge]\nOh, [F#m]why is everything [D]so confusing?\n[F#m]Maybe I'm just [D]out of my mind\n[A]Yeah, yeah, yeah [E]...\n\n[Outro]\n[A]Take me by the hand\n[F#m]Take me somewhere new\n[D]I don't know who you are\nBut [E]I... I'm with you"
     },
     {
-        "id": "avril_02", "artist": "Avril Lavigne", "title": "When You're Gone", "year": 2007, "key": "G",
-        "lyric": "[Intro]\n[G] [D/F#] [Em] [C]\n\n[Verse 1]\n[G]I always needed time on my [D/F#]own\n[Em]I never thought I'd need you there when I [C]cry\n[G]And the days feel like years when I'm [D/F#]alone\n[Em]And the bed where you lie is made up on your [C]side\n\n[Pre-Chorus]\nWhen you [Am]walk away\nI count the [C]steps that you take\nDo you [Am]see how much I need you right [D]now?\n\n[Chorus]\nWhen you're [G]gone\nThe pieces of my [D]heart are missin' you\nWhen you're [Em]gone\nThe face I came to [C]know is missin' too\nWhen you're [Am]gone, the words I need to [C]hear\nTo always get me [G]through the day\nAnd make it [D]okay\nI miss [G]you\n\n[Verse 2]\n[G]I've never felt this way be[D/F#]fore\n[Em]Everything that I do reminds me of [C]you\n[G]And the clothes you left, they lie on the [D/F#]floor\n[Em]And they smell just like you\nI love the things that you [C]do\n\n[Chorus]\nWhen you're [G]gone\nThe pieces of my [D]heart are missin' you\nWhen you're [Em]gone\nThe face I came to [C]know is missin' too\nWhen you're [Am]gone, the words I need to [C]hear\nTo always get me [G]through the day\nAnd make it [D]okay\nI miss [G]you"
-    },
-
-    // --- THE CRANBERRIES ---
-    {
-        "id": "cran_01", "artist": "The Cranberries", "title": "Animal Instinct", "year": 1999, "key": "Em",
-        "lyric": "[Intro]\n[Em] [Am7] [C] [D]\n[Em] [Am7] [C] [D]\n\n[Verse 1]\n[Em]Suddenly, [Am7]something has happened to me\n[C]As I was having my cup of [D]tea\n[Em]Suddenly, I was [Am7]feeling depressed\n[C]I was utterly and totally [D]stressed\n[Em]Do you know you made me [Am7]cry? (Woah-oh)\n[C]Do you know you made me [D]die?\n\n[Chorus]\nAnd the [Em]thing that gets to me (thing that gets to me)\nIs you'll [Am7]never really see (never really see)\nAnd the [C]thing that freaks me out (thing that freaks me out)\nIs I'll [D]always be in doubt (always be in)\n\n[Post-Chorus]\n[G]It is the [D]lovely thing that we [C]have\nIt is the [D]lovely thing that we\n[G]It is the [D]lovely thing\nThe ani[C]mal, the animal ins[D]tinct\n\n[Verse 2]\n[Em]So take my hands and [Am7]come with me\n[C]We will change reali[D]ty\n[Em]So take my hands and [Am7]we will pray\n[C]They won't take you a[D]way\n\n[Chorus]\nAnd the [Em]thing that gets to me (thing that gets to me)\nIs you'll [Am7]never really see (never really see)\nAnd the [C]thing that freaks me out (thing that freaks me out)\nIs I'll [D]always be in doubt (always be in)\nThe ani[Em]mal, the animal...\n[Am7]The animal instinct in [C]me [D]"
-    },
-    {
-        "id": "cran_02", "artist": "The Cranberries", "title": "Ode To My Family", "year": 1994, "key": "D",
-        "lyric": "[Intro]\n[D] [Bm] [F#m] [G] (Doo doo doo...)\n[D] [Bm] [F#m] [G] (Doo doo doo...)\n\n[Verse 1]\n[D]Understand the [Bm]things I say\n[F#m]Don't turn away from [G]me\n[D]'Cause I spent half my [Bm]life out there\n[F#m]You wouldn't disa[G]gree\n[D]D'you see me? [Bm]D'you see?\n[F#m]Do you like me? [G]Do you like me standing there?\n[D]D'you notice? [Bm]D'you know?\n[F#m]Do you see me? [G]Do you see me?\nDoes anyone [D]care?\n\n[Chorus]\nUn[D]happiness\nWhere's when I was [Bm]young\nAnd we didn't give a [F#m]damn\n'Cause we were [G]raised\nTo see life as [D]fun\nAnd take it if we [Bm]can\nMy [F#m]mother... my mother she'd [G]hold me\n\n[Verse 2]\n[D]Understand what [Bm]I've become\n[F#m]It wasn't my de[G]sign\n[D]And people every[Bm]where think\n[F#m]Something better than I [G]am\n[D]I miss you... [Bm]I miss 'cause I liked it\n[F#m]'Cause I liked it... [G]When I was out there\n\n[Chorus]\nUn[D]happiness\nWhere's when I was [Bm]young\nAnd we didn't give a [F#m]damn\n'Cause we were [G]raised\nTo see life as [D]fun\nAnd take it if we [Bm]can\nMy [F#m]mother...\nMy mother she'd [G]hold me"
-    },
-    {
-        "id": "cran_03", "artist": "The Cranberries", "title": "Zombie", "year": 1994, "key": "Em",
-        "lyric": "[Intro]\n[Em] [C] [G] [D/F#]\n\n[Verse 1]\n[Em]Another head hangs [C]lowly\n[G]Child is slowly [D/F#]taken\n[Em]And the violence caused such [C]silence\n[G]Who are we mis[D/F#]taken?\n[Em]But you see, it's not me, it's not [C]my family\nIn your [G]head, in your head, they are [D/F#]fighting\nWith their [Em]tanks and their bombs, and their [C]bombs, and their guns\nIn your [G]head, in your head, they are [D/F#]crying\n\n[Chorus]\nIn your [Em]head, in your [C]head\nZombie, [G]zombie, zom[D/F#]bie-ie-ie\nWhat's in your [Em]head? In your [C]head?\nZombie, [G]zombie, zom[D/F#]bie-ie-ie, oh\n\n[Instrumental]\n[Em] [C] [G] [D/F#]\n\n[Verse 2]\n[Em]Another mother's [C]breaking\n[G]Heart is taking [D/F#]over\n[Em]When the violence causes [C]silence\n[G]We must be mis[D/F#]taken\n[Em]It's the same old theme since [C]1916\nIn your [G]head, in your head, they're still [D/F#]fighting\nWith their [Em]tanks and their bombs, and their [C]bombs, and their guns\nIn your [G]head, in your head, they are [D/F#]dying\n\n[Chorus]\nIn your [Em]head, in your [C]head\nZombie, [G]zombie, zom[D/F#]bie-ie-ie\nWhat's in your [Em]head? In your [C]head?\nZombie, [G]zombie, zom[D/F#]bie-ie-ie"
+        id: "avril02", artist: "Avril Lavigne", title: "When You're Gone", year: 2007, key: "G",
+        lyric: "[Intro]\n[G] [D/F#] [Em] [C]\n\n[Verse 1]\n[G]I always needed time on my [D/F#]own\n[Em]I never thought I'd need you there when I [C]cry\n[G]And the days feel like years when I'm [D/F#]alone\n[Em]And the bed where you lie is made up on your [C]side\n\n[Pre-Chorus]\nWhen you [Am]walk away\nI count the [C]steps that you take\nDo you [Am]see how much I need you right [D]now?\n\n[Chorus]\nWhen you're [G]gone\nThe pieces of my [D]heart are missin' you\nWhen you're [Em]gone\nThe face I came to [C]know is missin' too\nWhen you're [Am]gone, the words I need to [C]hear\nTo always get me [G]through the day\nAnd make it [D]okay\nI miss [G]you\n\n[Verse 2]\n[G]I've never felt this way be[D/F#]fore\n[Em]Everything that I do reminds me of [C]you\n[G]And the clothes you left, they lie on the [D/F#]floor\n[Em]And they smell just like you\nI love the things that you [C]do\n\n[Chorus]\nWhen you're [G]gone\nThe pieces of my [D]heart are missin' you\nWhen you're [Em]gone\nThe face I came to [C]know is missin' too\nWhen you're [Am]gone, the words I need to [C]hear\nTo always get me [G]through the day\nAnd make it [D]okay\nI miss [G]you"
     },
 
-    // --- SIXPENCE NONE THE RICHER ---
+    // === THE CRANBERRIES ===
     {
-        "id": "sixpence_01", "artist": "Sixpence None The Richer", "title": "Kiss Me", "year": 1997, "key": "C",
-        "lyric": "[Intro]\n[C] [Cmaj7] [C7] [F]\n[C] [Cmaj7] [C7] [F]\n\n[Verse 1]\n[C]Kiss me out of the [Cmaj7]bearded barley\n[C7]Nightly beside the [Cmaj7]green, green grass\n[C]Swing, swing, [Cmaj7]swing the spinning step\n[C7]You wear those shoes and [F]I will wear that dress\n\n[Chorus]\n[Dm]Oh, kiss [G]me beneath the [C]milky twi[Am]light\n[Dm]Lead me [G]out on the [C]moonlit [C7]floor\n[Dm]Lift your [G]open hand\n[C]Strike up the [C/B]band and make the [Am]fireflies dance\n[Am/G]Silver moon's [F]sparkling... [G]So, kiss [C]me\n\n[Interlude]\n[Cmaj7] [C7] [F]\n\n[Verse 2]\n[C]Kiss me down by the [Cmaj7]broken tree house\n[C7]Swing me upon its [Cmaj7]hanging tire\n[C]Bring, bring, [Cmaj7]bring your flowered hat\n[C7]We'll take the trail marked on your [F]father's map\n\n[Chorus]\n[Dm]Oh, kiss [G]me beneath the [C]milky twi[Am]light\n[Dm]Lead me [G]out on the [C]moonlit [C7]floor\n[Dm]Lift your [G]open hand\n[C]Strike up the [C/B]band and make the [Am]fireflies dance\n[Am/G]Silver moon's [F]sparkling... [G]So, kiss [C]me\n\n[Outro]\n[Cmaj7] [C7] [F]\nSo kiss me... [C]"
+        id: "cran01", artist: "The Cranberries", title: "Zombie", year: 1994, key: "Em",
+        lyric: "[Intro]\n[Em] [C] [G] [D/F#]\n\n[Verse 1]\n[Em]Another head hangs [C]lowly\n[G]Child is slowly [D/F#]taken\n[Em]And the violence caused such [C]silence\n[G]Who are we mis[D/F#]taken?\n[Em]But you see, it's not me, it's not [C]my family\nIn your [G]head, in your head, they are [D/F#]fighting\nWith their [Em]tanks and their bombs, and their [C]bombs, and their guns\nIn your [G]head, in your head, they are [D/F#]crying\n\n[Chorus]\nIn your [Em]head, in your [C]head\nZombie, [G]zombie, zom[D/F#]bie-ie-ie\nWhat's in your [Em]head? In your [C]head?\nZombie, [G]zombie, zom[D/F#]bie-ie-ie, oh\n\n[Instrumental]\n[Em] [C] [G] [D/F#]\n\n[Verse 2]\n[Em]Another mother's [C]breaking\n[G]Heart is taking [D/F#]over\n[Em]When the violence causes [C]silence\n[G]We must be mis[D/F#]taken\n[Em]It's the same old theme since [C]1916\nIn your [G]head, in your head, they're still [D/F#]fighting\nWith their [Em]tanks and their bombs, and their [C]bombs, and their guns\nIn your [G]head, in your head, they are [D/F#]dying\n\n[Chorus]\nIn your [Em]head, in your [C]head\nZombie, [G]zombie, zom[D/F#]bie-ie-ie\nWhat's in your [Em]head? In your [C]head?\nZombie, [G]zombie, zom[D/F#]bie-ie-ie"
     },
     {
-        "id": "sixpence_02", "artist": "The La's / Sixpence", "title": "There She Goes", "year": 1990, "key": "G",
-        "lyric": "[Intro]\n[G] [D] [C] [D]\n[G] [D] [C] [D]\n\n[Verse 1]\n[G]There she [D]goes\n[C]There she goes a[D]gain\n[G]Racing through my [D]brain\nAnd I [C]just can't con[D]tain\nThis [C]feelin' that re[G]mains\n\n[Verse 2]\n[G]There she [D]blows\n[C]There she blows a[D]gain\n[G]Pulsing through my [D]vein\nAnd I [C]just can't con[D]tain\nThis [C]feelin' that re[G]mains\n\n[Chorus]\n[Em]There [C]she goes\n[Em]There she goes a[C]gain... [D]\n\n[Verse 3]\n[G]She calls my [D]name, pulls my [C]train\n[D]No one else could heal my [G]pain\nBut I [D]just can't con[C]tain\nThis [D]feelin' that re[G]mains\n\n[Outro]\n[G]There she [D]goes\n(There she goes again)\n[C]There she [D]goes\n(There she goes again)"
+        id: "cran02", artist: "The Cranberries", title: "Ode To My Family", year: 1994, key: "D",
+        lyric: "[Intro]\n[D] [Bm] [F#m] [G] (Doo doo doo...)\n[D] [Bm] [F#m] [G] (Doo doo doo...)\n\n[Verse 1]\n[D]Understand the [Bm]things I say\n[F#m]Don't turn away from [G]me\n[D]'Cause I spent half my [Bm]life out there\n[F#m]You wouldn't disa[G]gree\n[D]D'you see me? [Bm]D'you see?\n[F#m]Do you like me? [G]Do you like me standing there?\n[D]D'you notice? [Bm]D'you know?\n[F#m]Do you see me? [G]Do you see me?\nDoes anyone [D]care?\n\n[Chorus]\nUn[D]happiness\nWhere's when I was [Bm]young\nAnd we didn't give a [F#m]damn\n'Cause we were [G]raised\nTo see life as [D]fun\nAnd take it if we [Bm]can\nMy [F#m]mother... my mother she'd [G]hold me\n\n[Verse 2]\n[D]Understand what [Bm]I've become\n[F#m]It wasn't my de[G]sign\n[D]And people every[Bm]where think\n[F#m]Something better than I [G]am\n[D]I miss you... [Bm]I miss 'cause I liked it\n[F#m]'Cause I liked it... [G]When I was out there\n\n[Chorus]\nUn[D]happiness\nWhere's when I was [Bm]young\nAnd we didn't give a [F#m]damn\n'Cause we were [G]raised\nTo see life as [D]fun\nAnd take it if we [Bm]can\nMy [F#m]mother...\nMy mother she'd [G]hold me"
+    },
+    {
+        id: "cran03", artist: "The Cranberries", title: "Animal Instinct", year: 1999, key: "Em",
+        lyric: "[Intro]\n[Em] [Am7] [C] [D]\n[Em] [Am7] [C] [D]\n\n[Verse 1]\n[Em]Suddenly, [Am7]something has happened to me\n[C]As I was having my cup of [D]tea\n[Em]Suddenly, I was [Am7]feeling depressed\n[C]I was utterly and totally [D]stressed\n[Em]Do you know you made me [Am7]cry? (Woah-oh)\n[C]Do you know you made me [D]die?\n\n[Chorus]\nAnd the [Em]thing that gets to me (thing that gets to me)\nIs you'll [Am7]never really see (never really see)\nAnd the [C]thing that freaks me out (thing that freaks me out)\nIs I'll [D]always be in doubt (always be in)\n\n[Post-Chorus]\n[G]It is the [D]lovely thing that we [C]have\nIt is the [D]lovely thing that we\n[G]It is the [D]lovely thing\nThe ani[C]mal, the animal ins[D]tinct\n\n[Verse 2]\n[Em]So take my hands and [Am7]come with me\n[C]We will change reali[D]ty\n[Em]So take my hands and [Am7]we will pray\n[C]They won't take you a[D]way\n\n[Chorus]\nAnd the [Em]thing that gets to me (thing that gets to me)\nIs you'll [Am7]never really see (never really see)\nAnd the [C]thing that freaks me out (thing that freaks me out)\nIs I'll [D]always be in doubt (always be in)\nThe ani[Em]mal, the animal...\n[Am7]The animal instinct in [C]me [D]"
     },
 
-    // --- INDONESIAN HITS ---
+    // === SIXPENCE NONE THE RICHER ===
     {
-        "id": "bernadya_01", "artist": "Bernadya", "title": "Satu Bulan", "year": 2024, "key": "C",
-        "lyric": "[Intro]\n[F] [G] [Em] [Am]\n[Dm] [G] [C]\n\n[Verse 1]\nSudah adakah yang [F]gantikanku\nYang kau [G]antar jemput setiap [Em]sabtu [Am]\nSudah adakah yang [F]menenangkanmu\nSaat kau [G]merasa semuanya [C]musuhmu\n\n[Verse 2]\nSudah adakah yang [F]lebih sabar\nMeghadapi [G]jurang emosimu yang [Em]besar [Am]\nSudah adakah yang [F]buatmu sadar\nDia [G]bukan aku tak perlu kau [C]bandingkan\n\n[Chorus]\n[F]Belum ada satu [G]bulan\nKu yakin masih ada sisa [Em]wangiku di baju[Am]mu\nNamun kau tampak [Dm]baik saja\nTak seperti yang [G]ku kira [C]\n\n[Bridge]\n[F]Mungkin hanya aku [Fm]yang\nTer[Em]luka sendirian [A]\n[Dm]Kau tlah sembuh sedia kala [G]...\n\n[Chorus]\n[F]Belum ada satu [G]bulan\nKu yakin masih ada sisa [Em]wangiku di baju[Am]mu\nNamun kau tampak [Dm]baik saja\nTak seperti yang [G]ku kira [C]\n\n[Outro]\n[F] [G] [Em] [Am]\n[Dm] [G] [C]"
+        id: "six01", artist: "Sixpence None The Richer", title: "Kiss Me", year: 1997, key: "C",
+        lyric: "[Intro]\n[C] [Cmaj7] [C7] [F]\n[C] [Cmaj7] [C7] [F]\n\n[Verse 1]\n[C]Kiss me out of the [Cmaj7]bearded barley\n[C7]Nightly beside the [Cmaj7]green, green grass\n[C]Swing, swing, [Cmaj7]swing the spinning step\n[C7]You wear those shoes and [F]I will wear that dress\n\n[Chorus]\n[Dm]Oh, kiss [G]me beneath the [C]milky twi[Am]light\n[Dm]Lead me [G]out on the [C]moonlit [C7]floor\n[Dm]Lift your [G]open hand\n[C]Strike up the [C/B]band and make the [Am]fireflies dance\n[Am/G]Silver moon's [F]sparkling... [G]So, kiss [C]me\n\n[Interlude]\n[Cmaj7] [C7] [F]\n\n[Verse 2]\n[C]Kiss me down by the [Cmaj7]broken tree house\n[C7]Swing me upon its [Cmaj7]hanging tire\n[C]Bring, bring, [Cmaj7]bring your flowered hat\n[C7]We'll take the trail marked on your [F]father's map\n\n[Chorus]\n[Dm]Oh, kiss [G]me beneath the [C]milky twi[Am]light\n[Dm]Lead me [G]out on the [C]moonlit [C7]floor\n[Dm]Lift your [G]open hand\n[C]Strike up the [C/B]band and make the [Am]fireflies dance\n[Am/G]Silver moon's [F]sparkling... [G]So, kiss [C]me\n\n[Outro]\n[Cmaj7] [C7] [F]\nSo kiss me... [C]"
     },
     {
-        "id": "mahalini_01", "artist": "Mahalini", "title": "Sial", "year": 2023, "key": "D",
-        "lyric": "[Intro]\n[G] [A] [F#m] [Bm]\n[G] [A] [D]\n\n[Verse 1]\nSampai saat ini tak terpikir [G]olehku\nAku pernah beri rasa pada orang [C]sepertimu [D]\nSeandainya sejak awal tak kuyakinkan [G]diriku [Em]\nApakah sempat pelukmu menenangkan [C]hatiku [D]\n\n[Chorus]\n[G]Bagaimana dengan aku terlanjur men[Bm]cintaimu\nYang datang beri ha[C]rapan, lalu per[D]gi\nDan hilang usai kau sa[C]kiti [D]\nSialnya dia mengubah [Bm]semua [Em]\nMalah kau tuduh aku[Am]lah penyebabnya [D]\nWanita [G]munafik...\n\n[Verse 2]\nPuas kau curangi [G]aku?\nBagaimana dengan [F#m]aku [Bm]\nYang tulus mencinta[Em]i... [F#m]\nYang tulus menyayang[C]i... [A]\n\n[Chorus]\n[G]Bagaimana dengan aku terlanjur men[Bm]cintaimu\nYang datang beri ha[C]rapan, lalu per[D]gi\nDan hilang usai kau sa[C]kiti [D]\nSialnya dia mengubah [Bm]semua [Em]\nMalah kau tuduh aku[Am]lah penyebabnya [D]\nWanita [G]munafik [Gm]...\n\n[Outro]\n[G] [F#m] [Em] [A] [D]"
+        id: "six02", artist: "The La's / Sixpence", title: "There She Goes", year: 1990, key: "G",
+        lyric: "[Intro]\n[G] [D] [C] [D]\n[G] [D] [C] [D]\n\n[Verse 1]\n[G]There she [D]goes\n[C]There she goes a[D]gain\n[G]Racing through my [D]brain\nAnd I [C]just can't con[D]tain\nThis [C]feelin' that re[G]mains\n\n[Verse 2]\n[G]There she [D]blows\n[C]There she blows a[D]gain\n[G]Pulsing through my [D]vein\nAnd I [C]just can't con[D]tain\nThis [C]feelin' that re[G]mains\n\n[Chorus]\n[Em]There [C]she goes\n[Em]There she goes a[C]gain... [D]\n\n[Verse 3]\n[G]She calls my [D]name, pulls my [C]train\n[D]No one else could heal my [G]pain\nBut I [D]just can't con[C]tain\nThis [D]feelin' that re[G]mains\n\n[Outro]\n[G]There she [D]goes\n(There she goes again)\n[C]There she [D]goes\n(There she goes again)"
+    },
+
+    // === HITS INDONESIA ===
+    {
+        id: "bernadya01", artist: "Bernadya", title: "Satu Bulan", year: 2024, key: "C",
+        lyric: "[Intro]\n[F] [G] [Em] [Am]\n[Dm] [G] [C]\n\n[Verse 1]\nSudah adakah yang [F]gantikanku\nYang kau [G]antar jemput setiap [Em]sabtu [Am]\nSudah adakah yang [F]menenangkanmu\nSaat kau [G]merasa semuanya [C]musuhmu\n\n[Verse 2]\nSudah adakah yang [F]lebih sabar\nMeghadapi [G]jurang emosimu yang [Em]besar [Am]\nSudah adakah yang [F]buatmu sadar\nDia [G]bukan aku tak perlu kau [C]bandingkan\n\n[Chorus]\n[F]Belum ada satu [G]bulan\nKu yakin masih ada sisa [Em]wangiku di baju[Am]mu\nNamun kau tampak [Dm]baik saja\nTak seperti yang [G]ku kira [C]\n\n[Bridge]\n[F]Mungkin hanya aku [Fm]yang\nTer[Em]luka sendirian [A]\n[Dm]Kau tlah sembuh sedia kala [G]...\n\n[Chorus]\n[F]Belum ada satu [G]bulan\nKu yakin masih ada sisa [Em]wangiku di baju[Am]mu\nNamun kau tampak [Dm]baik saja\nTak seperti yang [G]ku kira [C]\n\n[Outro]\n[F] [G] [Em] [Am]\n[Dm] [G] [C]"
     },
     {
-        "id": "tulus_01", "artist": "Tulus", "title": "Hati-Hati di Jalan", "year": 2022, "key": "F",
-        "lyric": "[Intro]\n[Bb] [C] [Am] [Dm]\n[Gm] [C] [F]\n\n[Verse 1]\nPerja[Bb]lanan memba[C]wamu\nBerte[Am]mu denganku, ku bertemu [Dm]kamu\nSeper[Gm]tinya semua seperti [C]sempurna\nSa[F]yang untuk diakhi[F7]ri\n\n[Verse 2]\nEkspek[Bb]tasi menyata[C]kan\nKita [Am]dirumahkan untuk sa[Dm]ling\nSa[Gm]ling menjaga, saling [C]mencinta\nCari [F]mana ada celah...\n\n[Chorus]\nKu[Bb]kira kita akan ber[C]sama\nBegitu [Am]banyak yang [Dm]sama\nLatar[Gm]mu dan latar[C]ku\nKukira tak[F]kan ada kendala\n\nKu[Bb]kira ini kan mu[C]dah\nKau aku [Am]ada dianta[Dm]ra\nKita [Gm]tahu... ini takkan [Am]mudah\nSelamat [Bb]jalan...\nHati-hati di [C]jalan [F]"
+        id: "mahalini01", artist: "Mahalini", title: "Sial", year: 2023, key: "D",
+        lyric: "[Intro]\n[G] [A] [F#m] [Bm]\n[G] [A] [D]\n\n[Verse 1]\nSampai saat ini tak terpikir [G]olehku\nAku pernah beri rasa pada orang [C]sepertimu [D]\nSeandainya sejak awal tak kuyakinkan [G]diriku [Em]\nApakah sempat pelukmu menenangkan [C]hatiku [D]\n\n[Chorus]\n[G]Bagaimana dengan aku terlanjur men[Bm]cintaimu\nYang datang beri ha[C]rapan, lalu per[D]gi\nDan hilang usai kau sa[C]kiti [D]\nSialnya dia mengubah [Bm]semua [Em]\nMalah kau tuduh aku[Am]lah penyebabnya [D]\nWanita [G]munafik...\n\n[Outro]\n[G] [F#m] [Em] [A] [D]"
+    },
+    {
+        id: "tulus01", artist: "Tulus", title: "Hati-Hati di Jalan", year: 2022, key: "F",
+        lyric: "[Intro]\n[Bb] [C] [Am] [Dm]\n[Gm] [C] [F]\n\n[Verse 1]\nPerja[Bb]lanan memba[C]wamu\nBerte[Am]mu denganku, ku bertemu [Dm]kamu\nSeper[Gm]tinya semua seperti [C]sempurna\nSa[F]yang untuk diakhi[F7]ri\n\n[Verse 2]\nEkspek[Bb]tasi menyata[C]kan\nKita [Am]dirumahkan untuk sa[Dm]ling\nSa[Gm]ling menjaga, saling [C]mencinta\nCari [F]mana ada celah...\n\n[Chorus]\nKu[Bb]kira kita akan ber[C]sama\nBegitu [Am]banyak yang [Dm]sama\nLatar[Gm]mu dan latar[C]ku\nKukira tak[F]kan ada kendala\n\nKu[Bb]kira ini kan mu[C]dah\nKau aku [Am]ada dianta[Dm]ra\nKita [Gm]tahu... ini takkan [Am]mudah\nSelamat [Bb]jalan...\nHati-hati di [C]jalan [F]"
+    },
+    {
+        id: "dewa01", artist: "Dewa 19", title: "Kangen", year: 1992, key: "D",
+        lyric: "[Intro]\n[D] [Bm] [G] [A]\n[D] [Bm] [G] [A]\n\n[Verse 1]\nKuterima [D]suratmu telah ku[Bm]baca dan aku menger[Em]ti\nBetapa merindunya [G]dirimu akan hadirnya [A]diriku\nDi dalam [D]hari-harimu ber[Bm]sama lagi\nKau bertan[Em]ya padaku\nKapan aku [G]akan kembali [A]lagi padamu\n\n[Chorus]\nSemua kata [D]rindumu semakin mem[Bm]buatku tak berda[Em]ya\nMenahan rasa ingin [G]jumpa [A]\nPercayalah pa[Bm]daku akupun rindu [G]kamu [A]\nKu akan [D]pulang...\n\n[Outro]\n[G]Jangan kau [A]ragu padaku...\n[D]Kangen [A]aku"
+    },
+    {
+        id: "sheila01", artist: "Sheila On 7", "title": "Dan", year: 1999, key: "C",
+        lyric: "[Intro]\n[C] [F] [C] [F]\n\n[Verse 1]\nDan... [C]bila esok [Em]datang kembali\nSeperti [F]sedia kala dimana kau bi[G]sa bercanda\nDan... [C]perlahan kaupun [Em]lupakan aku\nMimpi [F]burukmu dimana telah [G]kutancapkan duri tajam\n\n[Chorus]\nKau [C]pun menangis.. [Em]menangis sedih\nMaafkan [F]aku... [G]\nKau [C]pun menangis.. [Em]menangis sedih\nMaafkan [F]aku... [G]\n\n[Outro]\n[F] [Fm] [C]"
+    },
+    {
+        id: "peterpan01", artist: "Peterpan", "title": "Mungkin Nanti", year: 2004, key: "C",
+        "lyric": "[Intro]\n[C] [Em] [F] [G] (2x)\n\n[Verse 1]\nSaatnya [C]ku berkata [Em]\nMungkin yang [F]terakhir kalinya [C]\nSudahlah [C]lepaskan semua [Em]\nKuyakin [F]inilah waktunya [C]\n\n[Chorus]\nMungkin saja [F]kau bukan yang [G]dulu lagi [Em] [Am]\nMungkin saja [F]rasa itu [G]telah pergi [C]\n\n[Verse 2]\nDan mungkin [C]bila nanti [Em]\nKita kan [F]bertemu lagi [C]\nSatu pin[C]taku jangan [Em]\nKau coba [F]tanyakan kembali [C]\n\n[Chorus]\nMungkin saja [F]kau bukan yang [G]dulu lagi [Em] [Am]\nMungkin saja [F]rasa itu [G]telah pergi [C]\n\n[Outro]\nTakkan [F]hilang [G]... [C]"
+    },
+    {
+        id: "ungu01", artist: "Ungu", "title": "Demi Waktu", year: 2005, key: "C",
+        "lyric": "[Intro]\n[C] [Am] [F] [G]\n\n[Verse 1]\nAku yang tak [C]pernah bisa\nLupakan [Am]dirinya\nYang kini [F]ada di antara [G]kita\nNamun ku [C]juga takkan\nSanggup me[Am]lepaskanmu\nSaat ku [F]jauh dari [G]dirimu\n\n[Chorus]\nMaafkan [C]aku\nMenduakan [Am]cintamu\nBerat rasa [F]hatiku\nTinggalkan [G]dirinya\nDan demi [C]waktu\nYang bergulir [Am]disampingmu\nMaafkan [F]lah diriku\nSepenuh [G]hatimu\nSeandainya [F]bila... [G]kubisa [C]memilih"
+    },
+    {
+        id: "iwan01", artist: "Iwan Fals", "title": "Kemesraan", year: 1988, key: "C",
+        "lyric": "[Intro]\n[F] [G] [C]\n\n[Verse 1]\nSuatu [C]hari dikala kita [F]duduk ditepi [G]pantai [C]\nDan meman[C]dang ombak dilautan [F]yang kian me[G]nepi [C]\n\n[Verse 2]\nBurung [C]camar terbang ber[F]main diderunya [G]air [C]\nSuara a[C]lam ini hangat[F]kan jiwa ki[G]ta [C]\n\n[Chorus]\nKemesra[F]an... ini ja[G]nganlah cepat berla[C]lu\nKemesra[F]an... ini ing[G]in kukenang sela[C]lu\nHati[F]ku... damai[G]lah jiwaku bersa[C]mamu"
+    },
+    {
+        id: "chrisye01", artist: "Chrisye", "title": "Anak Sekolah", year: 1984, key: "E",
+        "lyric": "[Intro]\n[E] [A] [B] [E]\n\n[Verse 1]\nEngkau masih [E]anak seko[G#m]lah, satu S[C#m]MA\nBelum tepat [F#m]waktu tuk be[B]gitu begini\nAnak seko[E]lah datang kem[G#m]bali... dua atau [C#m]tiga tahun la[B]gi\n\n[Chorus]\nDan aku [E]pun [E7]...\nTiada a[A]kan [Am]...\nJatuh cin[E]ta [C#m]...\nPada [F#m]siapa... [B]saja"
+    },
+
+    // === HITS BARAT LAINNYA ===
+    {
+        id: "oasis01", artist: "Oasis", "title": "Don't Look Back in Anger", year: 1995, key: "C",
+        "lyric": "[Intro]\n[C] [F] [C] [F]\n\n[Verse 1]\nSlip inside the [C]eye of your [G]mind\nDon't you [Am]know you might [E]find\nA better [F]place to [G]play [C] [Am-G]\n\n[Chorus]\n[C]So [G]Sally can [Am]wait\nShe knows it's [E]too late as we're [F]walking on [G]by\nHer [C]soul [G]slides a[Am]way\n[F]But don't look [G]back in anger\nI [C]heard you say [G] [Am] [E] [F] [G] [C]"
+    },
+    {
+        id: "radiohead01", artist: "Radiohead", "title": "Creep", year: 1992, key: "G",
+        "lyric": "[Intro]\n[G] [B] [C] [Cm]\n\n[Verse 1]\nWhen you were here be[G]fore\nCouldn't look you in the [B]eye\nYou're just like an [C]angel\nYour skin makes me [Cm]cry\n\n[Chorus]\nBut I'm a [G]creep... I'm a [B]weirdo\nWhat the hell am I doing [C]here?\nI don't be[Cm]long here"
+    },
+    {
+        id: "queen01", artist: "Queen", "title": "Bohemian Rhapsody", year: 1975, key: "Bb",
+        "lyric": "[Intro]\nIs this the real [Gm]life?\nIs this just [C7]fantasy?\nCaught in a [F7]landslide\nNo escape from [Bb]reality\n\n[Verse]\nMama [Bb]... just killed a [Gm]man\nPut a [Cm]gun against his head\nPulled my [Cm]trigger now he's [F]dead\n\n[Chorus]\n[Bb]Mama... [Gm]oooh\nDidn't [Cm]mean to make you cry\nIf [Bb]I'm not back again this time to[Eb]morrow\nCarry [Ab]on, carry [Eb]on...\n\n[Outro]\n[Cm] [Gm] [Cm] [Gm]\n[Eb]Nothing really [D]matters...\nTo [Bb]me..."
     }
 ];
 
+// --- 2. LOGIC ENGINE ---
 let songs = allSongsData;
 let currentSong = null;
 let transposeStep = 0;
@@ -67,13 +106,14 @@ const chordShapes = {
     'B': 'x24442', 'Bm': 'x24432', 'Bb': 'x13331'
 };
 
+// INITIALIZATION
 window.onload = () => { renderList(songs); };
 
 function renderList(data) {
     const list = document.getElementById('songList');
     list.innerHTML = '';
     
-    // Sort A-Z Artist -> Title
+    // Sort A-Z Artist
     data.sort((a, b) => {
         if (a.artist < b.artist) return -1;
         if (a.artist > b.artist) return 1;
@@ -144,15 +184,20 @@ function renderLyrics() {
 
     let html = currentSong.lyric;
     
-    // Format Struktur (Intro, Verse, dll) - HANYA TEXT, BUKAN CHORD
-    const structureRegex = /\[(Intro|Verse.*?|Chorus|Reff|Bridge|Outro|Interlude|Solo|Pre-Chorus|Post-Chorus|Instrumental.*?)\]/gi;
+    // Format Struktur (Intro dll)
+    // Regex using raw string compatible in JS logic via Python
+    // We use \\ for escaping in Python string to become \ in JS file
+    const structureRegex = /\\[(Intro|Verse.*?|Chorus|Reff|Bridge|Outro|Interlude|Solo|Pre-Chorus|Post-Chorus|Instrumental.*?)\\]/gi;
+    
     html = html.replace(structureRegex, (match) => {
-        let cleanText = match.replace(/[\[\]]/g, '');
+        let cleanText = match.replace(/[\\[\\]]/g, '');
         return `<br><span class="structure-badge">${cleanText}</span><br>`;
     });
 
-    // Format Chord (Sisanya)
-    html = html.replace(/\[(.*?)\]/g, (match, chord) => {
+    // Format Chord
+    html = html.replace(/\\[(.*?)\\]/g, (match, chord) => {
+        if (!chord || chord.length > 5) return match; 
+        
         let newChord = getTransposedChord(chord, transposeStep);
         return `<span class="chord" onclick="showChord('${newChord}')">${newChord}</span>`;
     });
