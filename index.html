@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iamriady Songbook</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="brand">🎸 Iamriady App</div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Cari Lagu..." onkeyup="filterSongs()">
+        </div>
+    </header>
+
+    <main class="container" id="songList"></main>
+
+    <footer class="app-footer">
+        &copy; 2025 <b>Iamriady</b>. All Rights Reserved.<br>
+        Ultimate Songbook Collection
+    </footer>
+
+    <div id="playerModal" class="player-modal">
+        <div class="control-bar">
+            <button style="background:none; border:none; color:white; font-size:1.5rem; padding:0 10px;" onclick="closePlayer()">✕</button>
+            <div class="song-info">
+                <span id="playerTitle">Judul</span>
+                <span id="playerArtist">Artis</span>
+            </div>
+            <div class="tools">
+                <div style="display:inline-flex; border:1px solid #444; border-radius:5px;">
+                    <button onclick="transpose(-1)">-</button>
+                    <span class="key-badge" id="playerKey" style="display:flex;align-items:center;">C</span>
+                    <button onclick="transpose(1)">+</button>
+                </div>
+                <div style="display:inline-flex; border:1px solid #444; border-radius:5px; margin-left:5px;">
+                    <button onclick="changeFont(-2)">A-</button>
+                    <button onclick="changeFont(2)">A+</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-control">
+            <button id="btnScroll" onclick="toggleScroll()">▶ Auto Scroll</button>
+            
+            <select id="speedSelect" class="speed-select" onchange="updateScrollSpeed()">
+                <option value="200">🐢 Lambat Banget</option>
+                <option value="100">🚶 Lambat</option>
+                <option value="50" selected>😐 Sedang</option>
+                <option value="25">🏃 Cepat</option>
+                <option value="5">🚀 Sangat Cepat</option>
+            </select>
+        </div>
+
+        <div id="lyricsWrapper">
+            <div id="lyricsContent"></div>
+        </div>
+
+        <div id="chordPopup" class="chord-popup" onclick="this.style.display='none'">
+            <canvas id="chordCanvas" width="120" height="140"></canvas>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
